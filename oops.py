@@ -39,8 +39,8 @@ class Microwave:
         return f'{self.brand} (rating:{self.power_rating})'
 
 
-smeg:Microwave = Microwave(brand='smeg',power_rating='er')
+smeg = Microwave(brand='smeg',power_rating='er')
 
-cod:Microwave = Microwave(brand='code',power_rating= 'v')
+cod = Microwave(brand='code',power_rating= 'v')
 
 print(smeg)
